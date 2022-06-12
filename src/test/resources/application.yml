@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: nacos-consul
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.1.103:8848/
+        namespace: f7d3ea9b-53a9-45fc-a044-2191bddb2bdc
+        group: DEFAULT_GROUP
+
+
+
